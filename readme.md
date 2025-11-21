@@ -17,7 +17,7 @@
 ![alt text](image-5.png)
 
         1) mach create - Создает виртуальный микрочип 
-        2) machine LoadPlatformDescriptionLoadPlatformDescription @platforms/boards/stm32f4_discovery-kit.repl - Загрузка готовой конфигуразии из папки ".../Renode/platforms/boards"
+        2) machine LoadPlatformDescription @platforms/boards/stm32f4_discovery-kit.repl - Загрузка готовой конфигуразии из папки ".../Renode/platforms/boards"
         3) sysbus LoadELF ".../firmware.elf" - Загрузка написанной прошивки
         4) showAnalyzer sysbus.usart2 - Показ usart2, куда выводится текст
         4) s (Он же start) - Старт эмуляции
