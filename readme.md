@@ -11,6 +11,8 @@
 * main.h
 
 ![alt text](image-4.png)
+
+* Была произведена сборка последством нажатия кнопки Build
 # 3.Тест
 ![alt text](image-5.png)
 
